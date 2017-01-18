@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<script type="text/javascript" src="lightbox.js"></script>
+		<script type="text/javascript" src="app.js"></script>
+		<link rel="stylesheet" type="text/css" href="lightbox.css"></link>
+		<link rel="stylesheet" type="text/css" href="app.css"></link>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<div id="photos"></div>
+
+		<div id="lightbox" class="modal">
+		  <span class="close cursor" onclick="lightbox.closeModal()">&times;</span>
+		  <div class="modal-content">
+		    <div class="caption-container">
+		      <p class="caption"></p>
+		    </div>
+		    <div class="photo">
+		    	<img src="" align="middle">
+		    </div>
+		    <a class="prev" onclick="lightbox.plusSlides(-1)">&#10094;</a>
+		    <a class="next" onclick="lightbox.plusSlides(1)">&#10095;</a>
+		  </div>
+		</div>
+	</body>
+</html>
