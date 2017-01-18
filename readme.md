@@ -1,7 +1,6 @@
 Lightbox by Alberto Pareja-Lecaros
 
-Note: You don't need to install node to run. Simply running index.html on its own is enough. The node server on top is just for
-simple deployment to Heroku.
+Note: You don't need to install node to run. Simply running index.html in the public folder on its own is enough. The node server on top is just for simple deployment to Heroku.
 
 Usage: add the following HTML to your body
 
